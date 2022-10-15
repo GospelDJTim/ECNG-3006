@@ -1,0 +1,86 @@
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16 
+tail 0
+chksum 0xee
+load 0x3ffe8408, len 24, room 8 
+tail 0
+chksum 0x67
+load 0x3ffe8420, len 3324, room 8 
+tail 4
+chksum 0x47
+csum 0x47
+[0;32mI (46) boot: ESP-IDF v3.4-49-g0f200b46 2nd stage bootloader[0m
+[0;32mI (46) boot: compile time 18:24:00[0m
+[0;32mI (46) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (54) boot: SPI Speed      : 40MHz[0m
+[0;32mI (60) boot: SPI Mode       : QIO[0m
+[0;32mI (66) boot: SPI Flash Size : 1MB[0m
+[0;32mI (72) boot: Partition Table:[0m
+[0;32mI (78) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (89) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (101) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (112) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (124) boot: End of partition table[0m
+[0;32mI (131) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0712c ( 28972) map[0m
+[0;32mI (194) esp_image: segment 2: paddr=0x00033db4 vaddr=0x3ffe8000 size=0x00544 (  1348) load[0m
+[0;32mI (195) esp_image: segment 3: paddr=0x00034300 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (209) esp_image: segment 4: paddr=0x00034388 vaddr=0x40100080 size=0x050c0 ( 20672) load[0m
+[0;32mI (229) boot: Loaded app from partition at offset 0x10000[0m
+Timothy Harripaul 814001359
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 2MB external flash
+Restarting in 8 seconds...
+Restarting in 7 seconds...
+Restarting in 6 seconds...
+Restarting in 5 seconds...
+Restarting in 4 seconds...
+Restarting in 3 seconds...
+Restarting in 2 seconds...
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16 
+tail 0
+chksum 0xee
+load 0x3ffe8408, len 24, room 8 
+tail 0
+chksum 0x67
+load 0x3ffe8420, len 3324, room 8 
+tail 4
+chksum 0x47
+csum 0x47
+[0;32mI (85) boot: ESP-IDF v3.4-49-g0f200b46 2nd stage bootloader[0m
+[0;32mI (85) boot: compile time 18:24:00[0m
+[0;32mI (86) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (102) boot: SPI Speed      : 40MHz[0m
+[0;32mI (115) boot: SPI Mode       : QIO[0m
+[0;32mI (127) boot: SPI Flash Size : 1MB[0m
+[0;32mI (140) boot: Partition Table:[0m
+[0;32mI (151) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (174) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (197) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (221) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (244) boot: End of partition table[0m
+[0;32mI (257) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map[0m
+[0;32mI (340) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0712c ( 28972) map[0m
+[0;32mI (354) esp_image: segment 2: paddr=0x00033db4 vaddr=0x3ffe8000 size=0x00544 (  1348) load[0m
+[0;32mI (362) esp_image: segment 3: paddr=0x00034300 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (390) esp_image: segment 4: paddr=0x00034388 vaddr=0x40100080 size=0x050c0 ( 20672) load[0m
+[0;32mI (425) boot: Loaded app from partition at offset 0x10000[0m
+Timothy Harripaul 814001359
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 2MB external flash
+Restarting in 8 seconds...
+Restarting in 7 seconds...
+Restarting in 6 seconds...
+Restarting in 5 seconds...
+Restarting in 4 seconds...
+Restarting in 3 seconds...
+Restarting in 2 seconds...
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
+
